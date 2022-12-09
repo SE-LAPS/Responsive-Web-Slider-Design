@@ -1,0 +1,63 @@
+#app{height: 100%;}
+html,
+body{
+  position: relative;
+  height: 100%;
+}
+
+body{
+  background: rgb(0, 0, 0);
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper{
+  width: 100%;
+  min-height: 100%;
+  background: #000;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 230px 60px;
+  
+}
+
+
+.parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide .title {
+  font-size: 41px;
+  font-weight: 400;
+  padding: 0px 60px;
+  
+}
+
+
+.swiper-slide .subtitle {
+  font-size: 25px;
+  padding: 17px 60px;
+  color: rgb(238, 255, 0);
+}
+
+.swiper-slide .text {
+  font-size: 16px;
+  max-width: 600px;
+  line-height: 1.5;
+  padding: 19px 60px;
+}
